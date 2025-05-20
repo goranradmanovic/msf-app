@@ -1,0 +1,23 @@
+{
+  "name": "form-api",
+  "version": "1.0.0",
+  "description": "API for multi step form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "keywords": [
+    "API",
+    "Node",
+    "Form"
+  ],
+  "author": "Goran Radmanovic",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
