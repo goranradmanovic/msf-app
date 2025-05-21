@@ -64,7 +64,7 @@ app.post('/users/new', async (req, res) => {
 		}
 
 		const data = await apiResponse.json()
-		res.status(201).json({ message: 'User created successfully', data })
+		res.status(201).json({ success: true, message: 'User created successfully', data })
 	} catch (error) {
 		console.error('Error creating user:', error)
 		res.status(500).json({ error: 'Internal server error' })

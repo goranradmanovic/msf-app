@@ -1,3 +1,6 @@
 api/node_modules
 api/.env
-ui/.env
+ui/.env.local
+ui/.env.production
+ui/node_modules
+ui/.vscode

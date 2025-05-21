@@ -1,0 +1,28 @@
+.wrapper__content {
+  place-self: center;
+  width: 100%;
+  max-width: 32.5rem;
+  padding-inline: 1rem;
+
+  .d-flex {
+    display: flex;
+  }
+
+  & .btn__continue {
+    background-color: #739efa;
+
+    &[disabled] {
+      background-color: #C1D5FF;
+    }
+  }
+
+  & .card__footer {
+    color: #909AA8;
+  }
+
+  & .card__footer, .cta__link {
+    & a {
+      color: #0051FF;
+    }
+  }
+}
