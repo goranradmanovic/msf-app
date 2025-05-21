@@ -73,7 +73,7 @@
                 <a href="#" class="font-semibold no-underline">Open Corporate Account</a>
               </div>
             </div>
-            <p v-else-if="step === 2 && !formSuccess">By creating an account, I confirm that I am 18+ years old and accept the <strong>Terms and Conditions</strong>, the <strong>Partnership Agreement Terms & Conditions</strong>, and the <strong>Partnership Agreement Appendix A</strong>.</p>
+            <p v-else-if="step === 2 && !formSuccess" class="text-xs">By creating an account, I confirm that I am 18+ years old and accept the <strong>Terms and Conditions</strong>, the <strong>Partnership Agreement Terms & Conditions</strong>, and the <strong>Partnership Agreement Appendix A</strong>.</p>
           </div>
         </template>
       </Card>
