@@ -25,4 +25,9 @@
       color: #0051FF;
     }
   }
+
+  & .iti__country-list {
+    width: 448px;
+    overflow-x: hidden;
+  }
 }
